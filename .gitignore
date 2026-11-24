@@ -1,0 +1,22 @@
+# LaTeX build products (main.pdf is kept)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Public-release staging exclusions
+01_root__small-items.zip
+MANIFEST.tsv
+MANIFEST.tsv.gz
+review.md
+artifact/results/real/campaign2/logs/
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
